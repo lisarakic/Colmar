@@ -10,11 +10,15 @@ html {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
+  position: fixed;
+  top: 0rem;
+  z-index: 5;
 }
 
 .header img {
   margin-left: 1.5rem;
   height: 5rem;
+  margin-top: 0.5rem;
 }
 
 .header .school {
@@ -35,6 +39,7 @@ html {
   justify-content: flex-end;
   align-items: center;
   font-size: 1.75rem;
+  margin-right: 2rem;
 }
 
 .header ul li {
@@ -45,4 +50,45 @@ html {
 .header a {
   text-decoration: none;
   color: rgb(100, 100, 100);
+}
+
+.container1 {
+  display: inline-flex;
+  background-color: rgb(208,208,208);
+  position:relative;
+  top: 4rem;
+  align-items: center;
+}
+
+.container1 img {
+  width: 60%;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  color: rgb(64, 64, 64);
+}
+
+.container1 h1 {
+  font-size: 4rem;
+}
+
+.container1 p {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.container1 h2 {
+  background-color: rgb(64, 64, 64);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.container1 h2 a {
+  text-decoration: none;
+  color: white;
 }
