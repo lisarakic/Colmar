@@ -53,34 +53,40 @@ html {
 }
 
 .container1 {
-  display: inline-flex;
+  display: flex;
   background-color: rgb(208,208,208);
-  position:relative;
-  top: 4rem;
   align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .container1 img {
-  max-width: 46rem;
+  width: 100%;
+}
+
+#banner {
   margin: 2rem 2.5rem 2rem 1.5rem;
+  width: 100%;
 }
 
 .right-side {
-  display: flex;
-  flex-direction: column;
   color: rgb(64, 64, 64);
+  width: 100%;
 }
 
-.container1 h1 {
-  font-size: 4rem;
+.right-side h1 {
+  font-size: 3.75rem;
+  width: 100%;
 }
 
-.container1 p {
+.right-side p {
   font-size: 2rem;
   margin-top: 0;
+  width: 100%;
 }
 
-.container1 h2 {
+.right-side h2 {
   background-color: rgb(64, 64, 64);
   text-align: center;
   padding-top: 1rem;
@@ -88,29 +94,28 @@ html {
   margin-right: 2rem;
 }
 
-.container1 h2 a {
+.right-side h2 a {
   text-decoration: none;
   color: white;
 }
 
 .container2 {
-  display: inline-flex;
-  background-color: rgb(255, 255, 255);
-  margin-top: 4rem;
-  padding-left: 1.5rem;
-  height: 50rem;
+  display: flex;
+  margin-left: 1.5rem;
   width: 100%;
 }
 
 .left-side2 {
-  min-width: 46rem;
-  max-height: 50rem;
   margin-right: 1.5rem;
-  padding-top: 2rem;
+  width: 100%;
 }
 
-.container2 img, .container2 h2, .container2 p {
-  flex: 1;
+#main {
+  width: 100%;
+  height: auto;
+}
+
+#main img {
   width: 100%;
 }
 
@@ -125,41 +130,44 @@ html {
 }
 
 .right-side2 {
-  color: rgb(64, 64, 64);
-  padding-top: 2rem;
-  max-height: 50rem;
-  min-width: 25rem;
-  border-left: 0.5px solid rgb(208, 208, 208)
+  border-left: 0.5px solid rgb(208, 208, 208);
+  width: 100%;
 }
+
 .right-side2 h4 {
   font-size: 1.5rem;
   font-weight: bold;
   color: rgb(64, 64, 64);
+  width: 100%;
 }
 
 .right-side2 p {
   color: rgb(128, 128, 128);
+  width: 100%;
 }
 
- .container2 .right-side2 .box1 {
-   display: inline-flex;
+ .box1 {
+   display: flex;
    width: 100%;
    padding-bottom: 2rem;
    padding-left: 1rem;
  }
 
  #orientation-img {
-   max-width: 11.6125rem;
-   max-height: 11.6125rem;
+   width: 35%;
  }
 
- #orientation {
-   margin-left: 1rem;
-   flex:1 ;
+ #orientation-img img {
+   width: 100%;
  }
 
-.container2 .right-side2 .box2 {
-  display: inline-flex;
+ .orientation {
+   width: 100%;
+   padding-left: 1rem;
+ }
+
+.box2 {
+  display: flex;
   width: 100%;
   padding-left: 1rem;
   padding-bottom: 1rem;
@@ -167,17 +175,20 @@ html {
 }
 
 #campus-img {
-  max-width: 11.6125rem;
-  max-height: 11.6125rem;
+  width: 35%;
 }
 
-#campus {
-  margin-left: 1rem;
-  flex: 1;
+#campus-img img {
+  width: 100%;
 }
 
-.container2 .right-side2 .box3 {
-  display: inline-flex;
+.campus {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.box3 {
+  display: flex;
   width: 100%;
   background-color: rgb(208, 208, 208);
   padding-bottom: 1rem;
@@ -185,14 +196,17 @@ html {
 }
 
 #guest-img {
-  max-width: 11.6125rem;
-  max-height: 11.6125rem;
   margin-top: 2rem;
+  width: 35%;
 }
 
-#guest {
-  margin-left: 1rem;
-  flex: 1;
+#guest-img img {
+  width: 100%;
+}
+
+.guest {
+  width: 100%;
+  padding-left: 1rem;
 }
 
 .right-side2 a {
@@ -200,96 +214,224 @@ html {
   color: rgb(102, 178, 255);
 }
 
-.container3 {
-  background-color: rgb(208,208,208);
-  position: absolute;
-  top: 97rem;
-}
-
 #learning {
-  position: absolute;
-  top: 90rem;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: rgb(208, 208, 208);
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.container3 {
+  background-color: rgb(208,208,208);
+  width: 100%;
+  text-align: center;
 }
 
 .top-row {
   display: inline-flex;
-  flex-direction: row;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 1rem;
   margin-bottom: 1rem;
-  position: relative;
-  left: 10%;
+  width: 85%;
 }
 
 .box4 {
-  height: 18.75rem;
-  width: 18.75rem;
   background-color: white;
   margin-right: 2rem;
+  width: 100%;
+  text-align: left;
+}
+#software img {
+  width: 100%;
+}
+
+#software {
+  width: 100%;
 }
 
 .box5 {
-  height:18.75rem;
-  width: 18.75rem;
   background-color: white;
   margin-right: 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+#computer-art img {
+  width: 100%;
+}
+
+#computer-art {
+  width: 100%;
 }
 
 .box6 {
-  height:18.75rem;
-  width: 18.75rem;
   background-color: white;
+  width: 100%;
+  text-align: left;
+}
+
+#course-design img {
+  width: 100%;
+}
+
+#course-design {
+  width: 100%;
 }
 
 .bottom-row {
   display: inline-flex;
-  flex-direction: row;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  margin-bottom: 2rem;
-  position: relative;
-  left: 10%
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  width: 85%;
 }
 
 .box7 {
-  height: 18.75rem;
-  width: 18.75rem;
   background-color: white;
   margin-right: 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+#data img {
+  width: 100%;
+}
+
+#data {
+  width: 100%;
 }
 
 .box8 {
-  height: 18.75rem;
-  width: 18.75rem;
   background-color: white;
   margin-right: 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+#business img {
+  width: 100%;
+}
+
+#business {
+  width: 100%;
 }
 
 .box9 {
-  height: 18.75rem;
-  width: 18.75rem;
   background-color: white;
+  width: 100%;
+  text-align: left;
+}
+
+#marketing img {
+  width: 100%;
+}
+
+#marketing {
+  width: 100%;
 }
 
 .top-row h5, .bottom-row h5, .top-row p, .bottom-row p {
   color: rgb(128, 128, 128);
   padding-left: 2rem;
-  line-height: 0.95rem;
   }
 
 .top-row h5, .bottom-row h5 {
     font-size: 1.25rem;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
 .top-row h4, .bottom-row h4 {
-    margin-top: 0;
+    padding-top: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
     color: rgb(64, 64, 64);
     padding-left: 2rem;
   }
+
+#thesis {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container4 {
+  display: flex;
+  width: 100%;
+}
+
+.video {
+  width: 60%;
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+}
+
+.mp4 {
+  width: 100%;
+}
+
+.mp4 video {
+  width: 100%;
+  height: auto;
+}
+
+.urban {
+  width: 100%;
+}
+.urban h3, .urban p {
+  width: 100%;
+}
+
+.right-side3 {
+}
+
+.right-side3 h4 {
+  color: rgb(64, 64, 64);
+  font-size: 1.5rem;
+}
+
+.right-side3 p {
+  color: rgb(128, 128, 128);
+}
+
+.fisma {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(208, 208, 208);
+}
+
+.design {
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+#fisma-img {
+  width: 35%;
+}
+
+#fisma-img img {
+  width: 100%;
+}
+
+.nowAndThen {
+  display: flex;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+.research {
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+#nowAndThen-img {
+  width: 35%;
+}
+
+#nowAndThen-img img {
+  width: 100%;
+}

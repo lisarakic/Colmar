@@ -10,7 +10,7 @@
 
    <header>
     <div class="header"> <!--- header and nav-->
-      <img src="./resources/images/ic-logo.svg"/>
+    <img src="./resources/images/ic-logo.svg"/>
     <div class="school"><p id="colmar">COLMAR</p><p>ACADEMY</p></div>
       <ul>
         <li><a href="#">On campus</a></li>
@@ -22,7 +22,7 @@
    </header>
 
   <div class="container1"> <!--- top banner-->
-    <img src="./resources/images/banner.jpg"/>
+  <div id="banner"><img src="./resources/images/banner.jpg"/></div>
     <div class="right-side">
       <h1>Learn something new everyday</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -32,7 +32,7 @@
 
   <div class="container2"> <!--second section comprised of left and right side containers-->
      <div class="left-side2">
-      <img src="./resources/images/information-main.jpg" id="main"/>
+    <div id="main"><img src="./resources/images/information-main.jpg"/></div>
      <h2>It doesn't hurt to keep practicing</h2>
       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -44,18 +44,17 @@
 
  <div class="right-side2"><!--comprised of box1, box2, box3-->
       <div class="box1">
-          <img src="./resources/images/information-orientation.jpg" id="orientation-img"/>
-          <div id="orientation">
+        <div id="orientation-img"><img src="./resources/images/information-orientation.jpg"/></div>
+          <div class="orientation">
           <h4>Orientation date</h4>
           <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
           <p><a href="#">Read more</a></p>
         </div>
       </div>
 
-
      <div class="box2">
-        <img src="./resources/images/information-campus.jpg" id="campus-img"/>
-       <div id="campus">
+      <div id="campus-img"><img src="./resources/images/information-campus.jpg"/></div>
+       <div class="campus">
          <h4>Our campus</h4>
          <p>Find which campus is close by you</p>
          <p><a href="#">Read more</a></P>
@@ -63,27 +62,28 @@
      </div>
 
       <div class="box3">
-        <img src="./resources/images/information-guest-lecture.jpg" id="guest-img"/>
-       <div id="guest">
+        <div id="guest-img"><img src="./resources/images/information-guest-lecture.jpg"/></div>
+       <div class="guest">
          <h4>Our guest lecture</h4>
          <p>Join a keynote with Oliver Sack about music in medical treatment</p>
          <p><a href="#">Read more</a></p>
       </div>
     </div>
   </div>
+</div>
 
      <h2 id="learning">Start learning</h2>
      <div class="container3"><!-- Third section-->
        <div class="top-row"> <!--box4, box5, box6-->
        <div class="box4">
-         <img src="./resources/images/course-software.jpg"/>
+         <div id="software"><img src="./resources/images/course-software.jpg"/></div>
          <h4>Software engineering</h4>
          <h5>COURSES</h5>
          <p>Development, iOT, APIs</p>
        </div>
 
        <div class="box5">
-         <img src="./resources/images/course-computer-art.jpg"/>
+         <div id="computer-art"><img src="./resources/images/course-computer-art.jpg"/></div>
          <h4>Computer art</h4>
          <h5>COURSES</h5>
          <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects,
@@ -91,7 +91,7 @@
        </div>
 
        <div class="box6">
-         <img src="./resources/images/course-design.jpg"/>
+         <div id="course-design"><img src="./resources/images/course-design.jpg"/></div>
          <h4>Design</h4>
          <h5>COURSES</h5>
          <p>User Experience Design, User Research, Visual Design</p>
@@ -100,26 +100,59 @@
 
       <div class="bottom-row"> <!--box7, box8, box9-->
        <div class="box7">
-         <img src="./resources/images/course-data.jpg"/>
+         <div id="data"><img src="./resources/images/course-data.jpg"/></div>
          <h4>Data</h4>
          <h5>COURSES</h5>
          <p>Data Science, Big Data, SQL, Data Visualization</p>
        </div>
 
        <div class="box8">
-          <img src="./resources/images/course-business.jpg"/>
+         <div id="business"><img src="./resources/images/course-business.jpg"/></div>
           <h4>Business</h4>
           <h5>COURSES</h5>
           <p>Product Development, Business Development, Startup</p>
        </div>
 
        <div class="box9">
-         <img src="./resources/images/course-marketing.jpg"/>
+         <div id="marketing"><img src="./resources/images/course-marketing.jpg"/></div>
           <h4>Marketing</h4>
           <h5>COURSES</h5>
           <p>Analytics, Content Marketing, Mobile Marketing</p>
        </div>
      </div>
      </div>
+
+     <h2 id="thesis">Thesis Exhibit</h2>
+     <div class="container4">
+      <div class="video">
+       <div class="mp4"><video controls>
+        <source src="./resources/videos/thesis.mp4" type="video/mp4">
+        </video></div>
+        <div class="urban">
+      <h3>Reimagine urban</h3>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+     </div>
+     </div>
+
+     <div class="right-side3">
+       <div class="fisma">
+         <div id="fisma-img"><img src="./resources/images/thesis-fisma.jpg"></div>
+         <div class="design">
+           <h4>Fisma: Design and</h4>
+           <p>Designer showcase of new prototype product</p>
+         </div>
+         </div>
+
+         <div class="nowAndThen">
+            <div id=nowAndThen-img><img src="./resources/images/thesis-now-and-then.jpg"></div>
+            <div class="research">
+            <h4>Now and then</h4>
+            <p>Research study about New York</p>
+          </div>
+        </div>
+       </div>
+    </div>
   </body>
 </html>
