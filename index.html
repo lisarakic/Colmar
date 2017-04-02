@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
   </head>
@@ -11,6 +12,12 @@
    <header>
     <div class="header"> <!--- header and nav-->
     <img src="./resources/images/ic-logo.svg"/>
+     <!---icons shown on mobile screen-->
+     <div class="mobile-only">
+       <img src="./resources/images/ic-on-campus.svg" class="mobile-only"/>
+       <img src="./resources/images/ic-online.svg" class="mobile-only"/>
+       <img src="./resources/images/ic-login.svg" class="mobile-only"/>
+     </div>
     <div class="school"><p id="colmar">COLMAR</p><p>ACADEMY</p></div>
       <ul>
         <li><a href="#">On campus</a></li>
@@ -29,6 +36,15 @@
       <h2><a href="#">Start here</a></h2>
     </div>
   </div>
+
+   <div class="container1-mobile">
+      <div class="banner-mobile"></div>
+      <div class="right-side-mobile">
+        <h1>Learn something<br/> new everyday</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2><a href="#">Start here</a></h2>
+      </div>
+   </div>
 
   <div class="container2"> <!--second section comprised of left and right side containers-->
      <div class="left-side2">
@@ -71,6 +87,21 @@
     </div>
   </div>
 </div>
+
+      <div class="container2-mobile">
+        <img src="./resources/images/information-orientation-mobile2.jpg">
+        <h4>Orientation date</h4>
+        <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+         <p><a href="#">Read more</a></P>
+        <img src="./resources/images/information-campus-mobile2.jpg">
+        <h4>Our campus</h4>
+        <p>Find which campus is close by you</p>
+         <p><a href="#">Read more</a></P>
+        <img src="./resources/images/information-guest-lecture-mobile2.jpg">
+         <h4>Special guest lecture</h4>
+         <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+         <p><a href="#">Read more</a></P>
+      </div>
 
      <h2 id="learning">Start learning</h2>
      <div class="container3"><!-- Third section-->
@@ -122,12 +153,23 @@
      </div>
      </div>
 
+     <div class=container3-mobile>
+       <h3>Software engineering</h3>
+       <h3>Computer art</h3>
+       <h3>Design</h3>
+       <h3>Data</h3>
+       <h3>Business</h3>
+       <h3>Marketing</h3>
+    </div>
+
      <h2 id="thesis">Thesis Exhibit</h2>
      <div class="container4">
-      <div class="video">
-       <div class="mp4"><video controls>
-        <source src="./resources/videos/thesis.mp4" type="video/mp4">
-        </video></div>
+       <div class="video">
+       <div class="mp4">
+         <video controls>
+         <source src="./resources/videos/thesis.mp4" type="video/mp4">
+         </video>
+      </div>
         <div class="urban">
       <h3>Reimagine urban</h3>
       <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -154,5 +196,22 @@
         </div>
        </div>
     </div>
+
+        <div class="container4-mobile">
+          <div class="video">
+          <div class="mp4">
+            <video controls>
+            <source src="./resources/videos/thesis.mp4" type="video/mp4">
+            </video>
+         </div>
+        </div>
+
+    <footer>
+      <p>&copy; 2016 Colmar Academy. All rights reserved.</p>
+      <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
